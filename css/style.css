@@ -181,22 +181,6 @@ footer p {
     left: 35%;
 }
 
-/**DESKTOP 1920**/
-@media (min-width: 1300px) {
-    .icono {
-        left: 35%;
-        top: 15%;
-    }
-
-    .card {
-        height: 37rem;
-    }
-
-    .container-form-nuevo textarea {
-        height: 15rem;
-    }
-
-}
 
 /**TABLET**/
 @media (max-width: 768px) {
@@ -535,8 +519,16 @@ input[type="radio"]:checked:before {
         margin: 1rem;
     }
     
-    .form-nuevo-subgrupo input, select {
+    .form-nuevo-subgrupo input {
         width: 100%;
+    }
+
+    .form-nuevo-subgrupo select {
+        width: 95%;
+    }
+
+    .form-nuevo-subgrupo input#foto {
+        width: 95%;
     }
     .container-form-nuevo input[type=file]::-webkit-file-upload-button {
         width: 100%;
@@ -693,4 +685,22 @@ input[type="radio"]:checked:before {
 
 #enviar {
     background-color: #45D2B1;
+}
+
+
+/**DESKTOP 1920**/
+@media (min-width: 1300px) {
+    .icono {
+        left: 35%;
+        top: 15%;
+    }
+
+    .card {
+        height: 37rem;
+    }
+
+    .container-form-nuevo textarea {
+        height: 15rem;
+    }
+
 }
