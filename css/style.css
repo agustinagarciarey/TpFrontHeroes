@@ -192,6 +192,10 @@ footer p {
         height: 37rem;
     }
 
+    .container-form-nuevo textarea {
+        height: 15rem;
+    }
+
 }
 
 /**TABLET**/
