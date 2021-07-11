@@ -181,6 +181,19 @@ footer p {
     left: 35%;
 }
 
+/**DESKTOP 1920**/
+@media (min-width: 1300px) {
+    .icono {
+        left: 35%;
+        top: 15%;
+    }
+
+    .card {
+        height: 35rem;
+    }
+
+}
+
 /**TABLET**/
 @media (max-width: 768px) {
     /**HEADER**/
@@ -551,7 +564,7 @@ input[type="radio"]:checked:before {
 
 .principal-form {
     width: 90%;
-    height: 100%;
+    height: 71.4vh;
     display: flex;
     justify-content: center;
     margin: 2rem;
@@ -672,7 +685,7 @@ input[type="radio"]:checked:before {
 /********************************************************/
 /**FORMULARIO CONTACTO**/
 .formulario textarea {
-    height: 15rem;
+    height: 10rem;
     border: 1px solid;
     width: 100%;
     margin-bottom: 1.5rem;
