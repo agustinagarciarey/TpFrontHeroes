@@ -189,7 +189,11 @@ footer p {
     }
 
     .card {
-        height: 35rem;
+        height: 37rem;
+    }
+
+    .login {
+        height: 100%;
     }
 
 }
@@ -567,7 +571,7 @@ input[type="radio"]:checked:before {
     height: 71.4vh;
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin: 3rem;
 }
 
 .principal-form h1 {
