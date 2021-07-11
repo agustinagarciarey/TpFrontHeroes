@@ -9,65 +9,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <title>Heroes</title>
 </head>
 
 <body>
     <var class="bar">
-        <p>Descuentos 27%</p>
+        <p>20% de descuento en todos los productos!</p>
     </var>
-    <header>
-        <h1>Heroes</h1>
+    <header class="sticky">
+        <div>
+            <img src="./img/Logo.png" alt="Imagen logo">
+            <h2>Nombre Tienda</h2>
+            <nav class="nav-hamburguesa">
+                <input type="checkbox" id="menu">
+                <label for="menu">☰</label>
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Registrarme</a></li>
+                    <li><a href="ingresar.html">Ingresar</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="nav-principal">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registrarme</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class="main">
+    <main>
         <div class="cardsContainer">
             <div class="card">
                 <img class="heart" src="./img/Vector.png" alt="">
-                <img src="./img/849bfede3a5193c34ab8a00379e64fa2_1.png" alt="">
-                <img class="icono" src="./img/liga-justicia-batman-kO4H--1024x512abc_1.png" alt="">
+                <img class="portada-card" src="./img/bb.png" alt="">
+                <img class="icono" src="./img/b.png" alt="">
                 <div class="card-info">
                     <h2>Batman</h2>
-                    <p>Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective
-                        Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
+                    <p>Batman es la identidad secreta de Bruce Wayne, un empresario multimillonario, galán y filántropo.
+                        Presenció el asesinato de sus padres cuando era niño lo marcó profundamente y lo llevó a
+                        entrenarse en la perfección física e intelectual para ponerse un disfraz de murciélago con el
+                        fin de combatir el crimen.
                     </p>
                 </div>
                 <button class="btn">
-                    Ver mas
+                    Ver más
                 </button>
             </div>
             <div class="card">
                 <img class="heart" src="./img/Vector.png" alt="">
-                <img src="./img/849bfede3a5193c34ab8a00379e64fa2_1_1.png" alt="">
-                <img class="icono" src="./img/liga-justicia-batman-kO4H--1024x512abc_1_1.png" alt="">
+                <img class="portada-card" src="./img/mmb.png" alt="">
+                <img class="icono" src="./img/mm.png" alt="">
+                <div class="card-info">
+                    <h2>Mujer maravilla</h2>
+                    <p>Es una superheroína creada por William Moulton Marston para la editorial DC Comics. Es una
+                        princesa guerrera de las Amazonas, pueblo ficticio basado en el de las amazonas de la mitología
+                        griega. En su tierra natal es conocida como la princesa Diana de Temiscira pero fuera de esta
+                        utiliza la identidad secreta de Diana Prince.
+                    </p>
+                </div>
+                <button class="btn">
+                    Ver más
+                </button>
+            </div>
+            <div class="card">
+                <img class="heart" src="./img/Vector.png" alt="">
+                <img class="portada-card" src="./img/spb.png" alt="">
+                <img class="icono" src="./img/sp.png" alt="">
+                <div class="card-info">
+                    <h2>Superman</h2>
+                    <p>Es un superhéroe que apareció por primera vez en los cómics estadounidenses publicados por DC
+                        Comics. ​
+                        El personaje fue creado por el escritor estadounidense Jerry Siegel y el artista canadiense Joe
+                        Shuster en 1933 cuando ambos se encontraban viviendo en Cleveland, Ohio.
+                    </p>
+                </div>
+                <button class="btn">
+                    Ver más
+                </button>
+            </div>
+            <div class="card">
+                <img class="heart" src="./img/Vector.png" alt="">
+                <img class="portada-card" src="./img/hqb.png" alt="">
+                <img class="icono" src="./img/hq.png" alt="">
                 <div class="card-info">
                     <h2>Harley Quinn</h2>
-                    <p>La creación de Harley Quinn fue una idea de último minuto propuesta por el escritor estadounidense Paul Dini para modificar una escena del vigésimo-segundo episodio de Batman: la serie animada
-                    </p>
-                </div>
-                <button class="btn">
-                    Ver mas
-                </button>
-            </div>
-            <div class="card">
-                <img class="heart" src="./img/Vector.png" alt="">
-                <img src="./img/849bfede3a5193c34ab8a00379e64fa2_1.png" alt="">
-                <img class="icono" src="./img/liga-justicia-batman-kO4H--1024x512abc_1.png" alt="">
-                <div class="card-info">
-                    <h2>Batman</h2>
                     <p>Bruce Wayne es el único personaje que se identifica como Batman y aparece en Batman, Detective
-                        Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing
+                        Comics, Batman y Robin, y Batman: The Dark Knight. Dick Grayson vuelve al manto de Nightwing.
                     </p>
                 </div>
                 <button class="btn">
-                    Ver mas
+                    Ver más
                 </button>
             </div>
-        </div>
-
+            <button class="mdc-fab create" aria-label="Create">
+                <a href="nuevo.html">
+                    <div class="mdc-fab__ripple"></div>
+                    <span class="mdc-fab__icon material-icons">+</span>
+                </a>
+            </button>
     </main>
-
-    <footer class="footer">
+    <footer>
         <p>Todos los derechos reservados a FRONT END 1</p>
+        <img src="./img/git.png" alt="">
     </footer>
 </body>
 
