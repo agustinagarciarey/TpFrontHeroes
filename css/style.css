@@ -192,10 +192,6 @@ footer p {
         height: 37rem;
     }
 
-    .login {
-        height: 100%;
-    }
-
 }
 
 /**TABLET**/
@@ -661,10 +657,6 @@ input[type="radio"]:checked:before {
 
 /************************************************************/
 /**FORMULARIO LOGIN**/
-
-.login {
-    height: 55vh;
-}
 
 #entrar {
     background-color: #45D2B1;
